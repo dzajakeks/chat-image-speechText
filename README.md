@@ -1,8 +1,26 @@
-# React + Vite
+# Chat-Image-SpeechText
+Chat with ChatGPT | extract the text from images | Speech to text.  
+https://chat-image-speech.netlify.app/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Table of Contents
 
-Currently, two official plugins are available:
+- [Preview](#preview)
+- [About](#about)
+- [Installing](#installing)
+- [Contributing](#contributing)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Preview
+![gifPreview](https://github.com/dzajakeks/chat-image-speechText/assets/83473422/72e3b14f-3fbc-4eff-b971-c283ae4d924a)
+
+
+## About
+Text only with ChatGPT. Three most spoken languages in the world (added my native). Extraction of the text from images. Accepting the most popular formats. 
+
+## Installing
+- Download ZIP
+- Extract the package
+- Open the 'chat-image-speechText' in your IDE
+- In terminal run 'npm install' and 'npm run dev'
+
+## Contributing
+dzajakeks
