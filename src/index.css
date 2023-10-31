@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .lang-btn {
+    @apply bg-green-500 text-white w-32 m-2 py-1 rounded-md;
+  }
+}
