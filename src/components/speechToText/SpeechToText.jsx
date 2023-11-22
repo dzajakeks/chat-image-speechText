@@ -21,10 +21,23 @@ const SpeechToText = () => {
 
   if (!browserSupportsSpeechRecognition) {
     return (
-      <span>
-        Browser doesn't support speech recognition. Please make sure to use at
-        least the latest version of Google Chrome.
-      </span>
+      // <span className='text-white text-center border-2 border-red-600 mx-auto'>
+      //   Browser doesn't support speech recognition. Please make sure to use at
+      //   least the latest version of Google Chrome.
+      // </span>
+      <section className='bg-[#505E61]'>
+        <div className='w-11/12 mx-auto pb-6'>
+          <div className='mx-auto w-fit text-center'>
+            <h1 className='text-white py-1 text-2xl sm:text-3xl'>
+              Speech to Text Converter
+            </h1>
+            <p className='mb-2 text-lg'>
+              Browser doesn't support speech recognition. Please make sure to
+              use at least the latest version of Google Chrome.
+            </p>
+          </div>
+        </div>
+      </section>
     );
   }
 

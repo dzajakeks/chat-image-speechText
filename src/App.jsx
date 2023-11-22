@@ -4,7 +4,7 @@ import ImageUploader from './components/textFromImage/ImageUploader';
 
 function App() {
   return (
-    <main className='bg-[#171A21]'>
+    <main className=''>
       <div className='max-w-[1400px] mx-auto sm:p-3'>
         <ChatbotGPT />
         <br />
